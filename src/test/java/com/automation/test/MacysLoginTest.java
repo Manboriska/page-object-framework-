@@ -17,7 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 
 public class MacysLoginTest {
-	
+	//Data provider
   @DataProvider(name="testdata")
   public Object[][] getTestDataForLogin() throws IOException {
 	  ExcelFileReader excelFileReaderObj = new ExcelFileReader();
